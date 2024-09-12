@@ -124,7 +124,7 @@ async def start_command(client: Client, message: Message):
                 except:
                     pass
 
-            SD = await message.reply_text("Baka! Files will be deleted After 600 seconds. Save them to the Saved Message now!")
+            SD = await message.reply_text("<b>❗️❗️❗️IMPORTANT❗️️❗️❗️\n! Files will be deleted After 10 MIN🫥  <i>(Due to Copyright Issues).</i>.</b> \n <b>Please forward this File/Video to your Saved Messages and Start Download there!</b>")
             await asyncio.sleep(600)
 
             for snt_msg in snt_msgs:
@@ -137,7 +137,8 @@ async def start_command(client: Client, message: Message):
         elif verify_status['is_verified']:
             reply_markup = InlineKeyboardMarkup(
                 [[InlineKeyboardButton("About Me", callback_data="about"),
-                  InlineKeyboardButton("Close", callback_data="close")]]
+                  InlineKeyboardButton("Movie Search", url='https://t.me/+swpuQspBoVxiNjdl')]],
+                  [InlineKeyboardButton("Close", callback_data="close")]
             )
             await message.reply_text(
                 text=START_MSG.format(
