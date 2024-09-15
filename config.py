@@ -60,7 +60,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} 𝙋𝙚𝙝𝙡𝙚 𝙣𝙞𝙘𝙝𝙚 𝙠𝙚 𝙘𝙝𝙖𝙣𝙣𝙚𝙡 𝙟𝙤𝙞𝙣 𝙆𝙖𝙧𝙤 𝘽𝙝𝙖𝙞 𝙡𝙤𝙜...!\n\n 𝙎𝙞𝙢𝙥𝙡𝙚 𝙨𝙖 1 𝙖𝙙 𝙙𝙚𝙠𝙝𝙤 24 𝙝𝙤𝙪𝙧𝙨 𝙠𝙚 𝙡𝙞𝙮𝙚 𝙗𝙤𝙩 𝙪𝙨𝙚 𝙠𝙖𝙧𝙤..!\n\n 𝘼𝙗 𝙣𝙤𝙬 𝙘𝙡𝙞𝙘𝙠 𝙝𝙚𝙧𝙚 𝙥𝙖𝙧 𝙘𝙡𝙞𝙘𝙠 𝙆𝙖𝙧𝙤 ...! \n\n 𝐀𝐠𝐚𝐫 𝐤𝐨𝐢 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐚 𝐑𝐚𝐡𝐢 𝐡𝐚𝐢 𝐭𝐨 𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞 𝐛𝐚𝐭𝐚𝐨 :- @xman_help ...!")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>» ʙʏ @AF_mhakal</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>» ʙʏ @Mrxofficalx</b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
